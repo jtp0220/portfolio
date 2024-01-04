@@ -30,4 +30,9 @@
     font-family: 'Handlee', cursive;
 }
 
-
+@media (max-width: 440px){
+    .img-wrapper {
+        float: none;
+        margin: auto;
+    }
+}
