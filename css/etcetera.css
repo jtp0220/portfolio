@@ -5,3 +5,11 @@
     text-align: left;
     font-family: 'Zen Maru Gothic', serif;
 }
+
+.projects-block {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
