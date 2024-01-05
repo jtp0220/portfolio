@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Handlee&family=Patrick+Hand+SC&display=swap');
 
 .biography-block {
+    width: 80%;
+    margin: auto;
     padding: 20px;
 }
 
@@ -13,7 +15,7 @@
 
     /* UNIQUE PROPERTIES FOR THIS IMAGE*/
     float:right;
-    margin-left: 20px;;
+    margin-left: 20px;
     width: 200px;
     height: 200px;
     overflow: hidden;
