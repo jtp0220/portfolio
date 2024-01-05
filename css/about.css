@@ -32,7 +32,7 @@
     font-family: 'Handlee', cursive;
 }
 
-@media (max-width: 440px){
+@media (max-width: 520px){
     .img-wrapper {
         float: none;
         margin: auto;
