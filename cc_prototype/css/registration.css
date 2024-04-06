@@ -1,0 +1,78 @@
+
+#main-navbar {
+    margin-top: 50px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+
+
+#main-navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#main-navbar li {
+    border-radius: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+#registration-tab {
+    background-color: red;
+    color: white;
+}
+
+.registration-subcategories {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.subcategory {
+    
+    min-height: 100px;
+    width: 400px;
+    background-color: rgb(235, 195, 16);
+}
+
+/* ---------------- */
+
+.categories {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.categories-subsection {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.subcategory-block {
+
+    width: 300px;
+    min-height: 200px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 14px;
+}
+
+.subcategory-block ul {
+    display: block;
+}
+
+
+
+.subcategory-block h2 {
+    text-align: center;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 10px;
+}

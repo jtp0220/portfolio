@@ -1,0 +1,149 @@
+.total-content {
+    display: flex;
+    flex-direction: row;
+    height: 800px;
+    margin-top: 100px;
+}
+
+.left-content {
+    text-align: center;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+
+.center-content {
+    width: 1000px;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+
+.right-content {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+
+
+}
+
+.registration-warnings {
+    width: 300px;
+    min-height: 500px;
+    border: 1px solid black;
+    margin-bottom: 100px;
+    margin-top: 10px;
+}
+
+.selected-courses {
+    width: 300px;
+    min-height: 500px;
+    border: 1px solid black;
+    margin-bottom: 100px;
+    margin-top: 10px;
+}
+
+.search-criteria {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-height: 100px;
+    border: 1px solid black;
+}
+
+.search-criteria-option {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    min-width: 100px;
+}
+
+h4 {
+    margin-right: 20px;
+}
+
+
+select {
+    height: 25px;
+}
+
+input {
+    height: 20px;
+    width: 80px;
+}
+
+
+.catalog {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+
+.catalog-header {
+    border-bottom: 1px solid black;
+}
+
+.course-block {
+    border-bottom: 1px solid black;
+}
+
+table {
+    border-collapse: collapse; 
+    width: inherit; 
+    font-size: 13px;
+
+}
+
+td {
+
+    padding: 5px; 
+    text-align: left; 
+}
+
+
+.selection-box {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    margin: 5px;
+    transition: 0.1s;
+}
+
+.selection-box:hover {
+    background-color: black;
+}
+
+b {
+    font-weight: bold;
+}
+
+
+
+.selected-courses-block {
+    border-bottom: 1px solid black;
+}
+
+.selected-courses-block td {
+    text-align: left;
+    padding-left: 5px;
+}
+
+.registration-warnings-block {
+    border-bottom: 1px solid black;
+}
+
+.registration-warnings-block td {
+    text-align: left;
+    padding-left: 5px;
+}
