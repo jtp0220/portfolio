@@ -103,6 +103,15 @@ footer p {
   font-size: 30px;
 }
 
+@media (max-width: 1300px) {
+  header nav {
+    flex-direction: column;
+    justify-content: center;
+  }
+  header nav div {
+    display: none;
+  }
+}
 /* PHONE SCREEN MEDIA QUERY */
 @media (max-width: 800px) {
   nav {

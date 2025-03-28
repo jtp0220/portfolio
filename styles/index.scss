@@ -64,17 +64,6 @@
 }
 
 @media (max-width: 1300px){
-    header {
-        nav {
-            flex-direction: column;
-            justify-content: center;
-
-            div {
-                display: none;
-            }
-        }
-    }
-
     .about-block {
         .biography-block {
             .introduction-block {
@@ -84,16 +73,20 @@
                 .img-wrapper {
                     float:none;
                     margin: auto;
-                    height: 600px;
-                    width: 500px;
+                    height: 400px;
+                    width: 300px;
                 }
 
                 .intro {
-                    padding-inline: 80px;
-
                     display: flex;
                     flex-direction: column;
+                    .intro-text {
+                        font-size: 50px;
+                    }
 
+                    .intro-subtext {
+                        font-size: 30px;
+                    }
                 }
             }
         }

@@ -125,6 +125,19 @@ footer {
     }
 }
 
+@media (max-width: 1300px){
+    header {
+        nav {
+            flex-direction: column;
+            justify-content: center;
+
+            div {
+                display: none;
+            }
+        }
+    }
+}
+
 /* PHONE SCREEN MEDIA QUERY */
 @media (max-width: 800px){
 

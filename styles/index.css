@@ -50,13 +50,6 @@
 }
 
 @media (max-width: 1300px) {
-  header nav {
-    flex-direction: column;
-    justify-content: center;
-  }
-  header nav div {
-    display: none;
-  }
   .about-block .biography-block .introduction-block {
     height: auto;
     flex-direction: column;
@@ -64,12 +57,17 @@
   .about-block .biography-block .introduction-block .img-wrapper {
     float: none;
     margin: auto;
-    height: 600px;
-    width: 500px;
+    height: 400px;
+    width: 300px;
   }
   .about-block .biography-block .introduction-block .intro {
-    padding-inline: 80px;
     display: flex;
     flex-direction: column;
+  }
+  .about-block .biography-block .introduction-block .intro .intro-text {
+    font-size: 50px;
+  }
+  .about-block .biography-block .introduction-block .intro .intro-subtext {
+    font-size: 30px;
   }
 }/*# sourceMappingURL=index.css.map */
