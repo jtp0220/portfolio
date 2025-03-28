@@ -5,19 +5,20 @@
   padding: 20px;
 }
 .about-block .biography-block .introduction-block {
-  height: 800px;
+  height: 600px;
 }
 .about-block .biography-block .introduction-block .img-wrapper {
   /* CENTER IMAGE IN DIV (NO WARPING)*/
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 30px;
   /*---------------------*/
   /* UNIQUE PROPERTIES FOR THIS IMAGE*/
   float: right;
   margin-left: 20px;
   width: 500px;
-  height: 600px;
+  height: inherit;
   overflow: hidden;
   -o-object-fit: cover;
      object-fit: cover;
@@ -28,16 +29,18 @@
   height: 100%;
 }
 .about-block .biography-block .introduction-block .intro {
-  padding-top: 200px;
-  font-family: "Handlee", cursive;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .about-block .biography-block .introduction-block .intro .intro-text {
-  text-align: justify;
+  text-align: left;
   font-family: "Handlee", cursive;
   font-size: 80px;
 }
 .about-block .biography-block .introduction-block .intro .intro-subtext {
-  text-align: justify;
+  text-align: left;
   font-family: "Handlee", cursive;
   font-size: 40px;
 }
@@ -46,9 +49,27 @@
   font-size: 30px;
 }
 
-@media (max-width: 520px) {
-  .img-wrapper {
+@media (max-width: 1300px) {
+  header nav {
+    flex-direction: column;
+    justify-content: center;
+  }
+  header nav div {
+    display: none;
+  }
+  .about-block .biography-block .introduction-block {
+    height: auto;
+    flex-direction: column;
+  }
+  .about-block .biography-block .introduction-block .img-wrapper {
     float: none;
     margin: auto;
+    height: 600px;
+    width: 500px;
+  }
+  .about-block .biography-block .introduction-block .intro {
+    padding-inline: 80px;
+    display: flex;
+    flex-direction: column;
   }
 }/*# sourceMappingURL=index.css.map */

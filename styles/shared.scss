@@ -97,7 +97,7 @@ footer {
     bottom: 0;
     width: 100%;
     height: 100px;
-    // box-sizing: border-box;
+    background-color: black;
 
     display: flex;
     flex-direction: row;
@@ -124,7 +124,6 @@ footer {
         font-size: 30px;
     }
 }
-
 
 /* PHONE SCREEN MEDIA QUERY */
 @media (max-width: 800px){

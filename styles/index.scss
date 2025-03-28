@@ -7,20 +7,22 @@
         padding: 20px;
 
         .introduction-block {
-            height: 800px;
-            
+            height: 600px;
+
             .img-wrapper {
                 /* CENTER IMAGE IN DIV (NO WARPING)*/
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                padding: 30px;
                 /*---------------------*/
             
                 /* UNIQUE PROPERTIES FOR THIS IMAGE*/
                 float:right;
                 margin-left: 20px;
                 width: 500px;
-                height: 600px;
+                height: inherit;
+
                 overflow: hidden;
                 object-fit: cover;
                 /* ----------------- */
@@ -32,15 +34,18 @@
             }
 
             .intro {
-                padding-top: 200px;
-                font-family: 'Handlee', cursive;
+                height: inherit;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
                 .intro-text {
-                    text-align: justify;
+                    text-align: left;
                     font-family: 'Handlee', cursive;
                     font-size: 80px;
                 }
                 .intro-subtext {
-                    text-align: justify;
+                    text-align: left;
                     font-family: 'Handlee', cursive;
                     font-size: 40px;
                 }
@@ -58,15 +63,39 @@
 
 }
 
+@media (max-width: 1300px){
+    header {
+        nav {
+            flex-direction: column;
+            justify-content: center;
 
+            div {
+                display: none;
+            }
+        }
+    }
 
+    .about-block {
+        .biography-block {
+            .introduction-block {
+                height: auto;
+                flex-direction: column;
 
+                .img-wrapper {
+                    float:none;
+                    margin: auto;
+                    height: 600px;
+                    width: 500px;
+                }
 
+                .intro {
+                    padding-inline: 80px;
 
+                    display: flex;
+                    flex-direction: column;
 
-@media (max-width: 520px){
-    .img-wrapper {
-        float: none;
-        margin: auto;
+                }
+            }
+        }
     }
 }
