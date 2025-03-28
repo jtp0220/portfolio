@@ -1,0 +1,75 @@
+.current-worksheet-selection {
+    border: 1px solid black;
+    width: 70%;
+    height: 500px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+.draft-timetable {
+    width: 60%;
+    height: 800px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+table {
+    border-collapse: collapse; 
+    width: 100%; 
+    font-size: 12px;
+
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px; 
+    height: 80px;
+    vertical-align: top;
+}
+
+b {
+    font-weight: bold;
+}
+
+#proceed_to_registration_button {
+    padding: 50px;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.current-worksheet-selection-header {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.current-worksheet-selection-header td{
+    height: 20px;
+    border: none;
+}
+
+.worksheet-preview-content-block {
+    border-bottom: 1px solid black;
+}
+
+.worksheet-preview-content-block td{
+    border: none;
+}
+
+.selection-box {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    margin: 5px;
+    transition: 0.1s;
+}
+
+.selection-box:hover {
+    background-color: black;
+}
+
+.worksheet-preview-content-block-warnings td{
+    height: 20px;
+}

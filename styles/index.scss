@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Patrick+Hand+SC&display=swap');
+
+.about-block {
+    .biography-block {
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+
+        .introduction-block {
+            height: 800px;
+            
+            .img-wrapper {
+                /* CENTER IMAGE IN DIV (NO WARPING)*/
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                /*---------------------*/
+            
+                /* UNIQUE PROPERTIES FOR THIS IMAGE*/
+                float:right;
+                margin-left: 20px;
+                width: 500px;
+                height: 600px;
+                overflow: hidden;
+                object-fit: cover;
+                /* ----------------- */
+            
+                img {
+                    width: auto;
+                    height: 100%;
+                }
+            }
+
+            .intro {
+                padding-top: 200px;
+                font-family: 'Handlee', cursive;
+                .intro-text {
+                    text-align: justify;
+                    font-family: 'Handlee', cursive;
+                    font-size: 80px;
+                }
+                .intro-subtext {
+                    text-align: justify;
+                    font-family: 'Handlee', cursive;
+                    font-size: 40px;
+                }
+            }
+        }
+
+        .more-block {
+            .about {
+                font-family: 'Handlee', cursive;
+                font-size: 30px;
+            }
+        }
+    }
+    
+
+}
+
+
+
+
+
+
+
+@media (max-width: 520px){
+    .img-wrapper {
+        float: none;
+        margin: auto;
+    }
+}

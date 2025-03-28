@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script src="./main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Client Side Handlebars</h1>
+        <button onclick="renderTemplate()"> Fill </button>
+        <button onclick="resetTemplate()"> Reset </button>    
+        <script id="template" type="text/x-handlebars-template">
+            <h1>{{title}}</h1>
+            <ol>
+                {{#each list}}
+                    <li> {{this.name}}</li>
+                {{/each}}
+            </ol>
+        </script>
+        <div id="output-wrapper">
+            <div id="output">Nothing here...</div>
+        </div>
+    </div>
+</body>
+</html>

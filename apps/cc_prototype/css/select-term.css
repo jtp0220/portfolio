@@ -1,0 +1,45 @@
+.window {
+    width: 800px;
+    min-height: 100px;
+    margin: auto;
+
+    margin-top: 180px;
+    padding: 70px;
+ 
+    border: 1px solid black;
+}
+
+h2 {
+    text-align: center;
+    
+}
+
+#left-sec {
+    align-items: flex-end;
+}
+
+.window-section-ultimate {
+    display: flex;
+}
+
+.window-section {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: 10px;
+}
+
+h2 {
+    margin: 15px;
+}
+
+select {
+    margin: 10px;
+    height: 40px;
+}
+
+
+.button-div {
+    display: flex;
+    justify-content: space-evenly;
+}
