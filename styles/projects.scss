@@ -1,0 +1,22 @@
+.content {
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    width: 1000px;
+    padding: 0px;
+    flex-direction: column;
+
+    .content-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .project {
+        width: 300px;
+        height: 150px;
+        background-color: gray;
+        margin: 20px;
+    }
+}

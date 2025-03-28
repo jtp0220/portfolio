@@ -14,7 +14,6 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                padding: 30px;
                 /*---------------------*/
             
                 /* UNIQUE PROPERTIES FOR THIS IMAGE*/
@@ -22,7 +21,6 @@
                 margin-left: 20px;
                 width: 500px;
                 height: inherit;
-
                 overflow: hidden;
                 object-fit: cover;
                 /* ----------------- */
@@ -68,13 +66,13 @@
         .biography-block {
             .introduction-block {
                 height: auto;
-                flex-direction: column;
 
                 .img-wrapper {
                     float:none;
                     margin: auto;
                     height: 400px;
-                    width: 300px;
+                    width: 100%;
+                    max-width: 300px;
                 }
 
                 .intro {

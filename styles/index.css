@@ -12,7 +12,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 30px;
   /*---------------------*/
   /* UNIQUE PROPERTIES FOR THIS IMAGE*/
   float: right;
@@ -52,13 +51,13 @@
 @media (max-width: 1300px) {
   .about-block .biography-block .introduction-block {
     height: auto;
-    flex-direction: column;
   }
   .about-block .biography-block .introduction-block .img-wrapper {
     float: none;
     margin: auto;
     height: 400px;
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
   }
   .about-block .biography-block .introduction-block .intro {
     display: flex;
