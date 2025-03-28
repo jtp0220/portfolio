@@ -133,16 +133,3 @@ footer {
         }
     }
 }
-
-/* PHONE SCREEN MEDIA QUERY */
-@media (max-width: 800px){
-
-    nav {
-        padding-top: 10px;
-        flex-direction: column;
-    }
-
-    .container {
-        width: 100%;
-    }
-}

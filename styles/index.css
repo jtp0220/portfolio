@@ -58,6 +58,7 @@
     height: 400px;
     width: 100%;
     max-width: 300px;
+    margin-bottom: 30px;
   }
   .about-block .biography-block .introduction-block .intro {
     display: flex;

@@ -2,20 +2,13 @@
   margin: auto;
   margin-top: 40px;
   display: flex;
-  width: 1000px;
-  padding: 0px;
-  flex-direction: column;
-}
-.content .content-row {
-  display: flex;
+  width: 900px;
   flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
+  flex-wrap: wrap;
 }
 .content .project {
   width: 300px;
   height: 150px;
-  margin: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,4 +23,15 @@
 .content .project button:hover {
   background-color: rgb(227, 225, 225);
   color: rgb(196, 57, 57);
+}
+
+@media (max-width: 1000px) {
+  .content {
+    width: 600px;
+  }
+}
+@media (max-width: 680px) {
+  .content {
+    width: 300px;
+  }
 }/*# sourceMappingURL=projects.css.map */
