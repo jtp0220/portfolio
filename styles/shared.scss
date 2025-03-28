@@ -127,6 +127,16 @@ footer {
 
 @media (max-width: 1300px){
     header {
+        font-size: 25px;
+    }
+
+    footer {
+        p {
+            display: none;
+        }
+    }
+
+    header {
         nav {
             flex-direction: column;
             justify-content: center;
